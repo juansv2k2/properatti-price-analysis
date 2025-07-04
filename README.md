@@ -63,7 +63,7 @@ This repository contains data analysis and predictive modeling notebooks focused
    _Shows the distribution of prediction errors (residuals). A symmetric, bell-shaped histogram centered at zero indicates that the model errors are approximately normally distributed, which is a desirable property for linear regression._
 
 - **QQ Plot of Residuals (Ridge Regression)**  
-   ![Ridge QQ Plot](docs/qq_plot_residuales.png.png)  
+   ![Ridge QQ Plot](docs/qq_plot_residuales.png)  
    _Compares the distribution of residuals to a normal distribution. If the points fall along the reference line, the residuals are normally distributed, supporting the assumptions of linear regression._
 
 ---
