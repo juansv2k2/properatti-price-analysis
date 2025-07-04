@@ -44,21 +44,29 @@ This repository contains data analysis and predictive modeling notebooks focused
 
 ## Visualizations
 
+- **Geospatial Property Map**  
+  ![Geospatial Property Map](docs/mapa_caba.png)  
+  _Visualizes the geographic distribution of properties in the city, highlighting spatial price patterns._
+
 - **Correlation Matrix Heatmap**  
-  ![Correlation Matrix Heatmap](docs/correlation_matrix.png)  
+  ![Correlation Matrix Heatmap](docs/correlation.png)  
   _Shows the correlation between numerical variables in the dataset. Useful for identifying relationships and multicollinearity._
 
 - **Price Distribution by Neighborhood**  
-  ![Price Distribution by Neighborhood](docs/price_distribution_barrio.png)  
+  ![Price Distribution by Neighborhood](docs/histograma_precios.png)  
   _Displays the distribution of property prices per square meter across different neighborhoods in Buenos Aires._
 
-- **Geospatial Property Map**  
-  ![Geospatial Property Map](docs/geospatial_map.png)  
-  _Visualizes the geographic distribution of properties in the city, highlighting spatial price patterns._
+- **Actual vs. Predicted Values (Ridge Regression)**  
+  ![Ridge Actual vs Predicted](docs/actual_vs_predicted.png)  
+  _This scatter plot compares the predicted property prices to the actual prices for the test set. The closer the points are to the red diagonal line, the better the model's predictions._
 
-- **Model Residuals Comparison**  
-  ![Model Residuals Comparison](docs/model_residuals_comparison.png)  
-  _Compares the residuals (errors) of different regression models, helping to assess model fit and error distribution._
+- **Histogram of Residuals (Ridge Regression)**  
+   ![Ridge Residuals Histogram](docs/histograma_residuales.png)  
+   _Shows the distribution of prediction errors (residuals). A symmetric, bell-shaped histogram centered at zero indicates that the model errors are approximately normally distributed, which is a desirable property for linear regression._
+
+- **QQ Plot of Residuals (Ridge Regression)**  
+   ![Ridge QQ Plot](docs/qq_plot_residuales.png.png)  
+   _Compares the distribution of residuals to a normal distribution. If the points fall along the reference line, the residuals are normally distributed, supporting the assumptions of linear regression._
 
 ---
 
