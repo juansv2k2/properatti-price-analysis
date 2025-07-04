@@ -42,14 +42,12 @@ This repository contains data analysis and predictive modeling notebooks focused
 
 ## Visualizations
 
-## Visualizations
-
 - **Geospatial Property Map**  
   ![Geospatial Property Map](docs/mapa_caba.png)  
   _Visualizes the geographic distribution of properties in the city, highlighting spatial price patterns._
 
 - **Correlation Matrix Heatmap**  
-  ![Correlation Matrix Heatmap](docs/correlation.png)  
+  ![Correlation Matrix Heatmap](docs/correlations.png)  
   _Shows the correlation between numerical variables in the dataset. Useful for identifying relationships and multicollinearity._
 
 - **Price Distribution by Neighborhood**  
@@ -105,10 +103,10 @@ This repository contains data analysis and predictive modeling notebooks focused
 
 ## Authors
 
-- [Your Name(s)]
+- Juan S. Vassallo
 
 ---
 
 ## License
 
-This project is licensed under the MIT License.
+This project is for educational purposes only
