@@ -42,19 +42,23 @@ This repository contains data analysis and predictive modeling notebooks focused
 
 ## Visualizations
 
-Below are some preview plots generated in [`test_Buenos-Aires.ipynb`](test_Buenos-Aires.ipynb):
+## Visualizations
 
-### Distribución de Precios de Propiedades por Barrio
+- **Correlation Matrix Heatmap**  
+  ![Correlation Matrix Heatmap](docs/correlation_matrix.png)  
+  _Shows the correlation between numerical variables in the dataset. Useful for identifying relationships and multicollinearity._
 
-![Boxplot de precios por barrio](docs/boxplot_barrios.png)
+- **Price Distribution by Neighborhood**  
+  ![Price Distribution by Neighborhood](docs/price_distribution_barrio.png)  
+  _Displays the distribution of property prices per square meter across different neighborhoods in Buenos Aires._
 
-### Distribución de Precios (Histograma)
+- **Geospatial Property Map**  
+  ![Geospatial Property Map](docs/geospatial_map.png)  
+  _Visualizes the geographic distribution of properties in the city, highlighting spatial price patterns._
 
-![Histograma de precios](docs/histograma_precios.png)
-
-### Mapa de Propiedades en la Ciudad de Buenos Aires
-
-![Mapa de propiedades](docs/mapa_caba.png)
+- **Model Residuals Comparison**  
+  ![Model Residuals Comparison](docs/model_residuals_comparison.png)  
+  _Compares the residuals (errors) of different regression models, helping to assess model fit and error distribution._
 
 ---
 
